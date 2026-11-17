@@ -1,0 +1,109 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+kaggle.json
+
+# ==============================
+# IDE & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Python Tooling
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Datasets & Generated Data
+# ==============================
+data/*.csv
+data/*.json
+data/*.zip
+!data/.gitkeep
+
+# ==============================
+# Vector Database
+# ==============================
+qdrant_storage/
+storage/
+*.db
+
+# ==============================
+# ML Models & Embeddings
+# ==============================
+models/
+checkpoints/
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# ==============================
+# Evaluation Outputs
+# ==============================
+ragas_kaggle_benchmark_results.csv
+evaluation_results/
+eval/results/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Build Artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
+wheels/
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.bak
+*.orig
