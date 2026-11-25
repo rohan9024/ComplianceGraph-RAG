@@ -83,7 +83,6 @@ checkpoints/
 # ==============================
 # Evaluation Outputs
 # ==============================
-ragas_kaggle_benchmark_results.csv
 evaluation_results/
 eval/results/
 
